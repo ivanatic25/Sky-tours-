@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sky Tours and Travels - Discover Uganda</title>
+<style>
+  *{margin:0;padding:0;box-sizing:border-box;font-family: 'Segoe UI', Arial, sans-serif;}
+  body{background:#f8fafc;color:#1e293b;line-height:1.6;}
+  header{background:#0f172a;color:#fff;padding:15px 8%;display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;z-index:100;}
+  header h1{font-size:22px;letter-spacing:1px;} header h1 span{color:#38bdf8;}
+  nav a{color:#fff;text-decoration:none;margin-left:20px;font-size:14px;}
+  .hero{background: linear-gradient(rgba(15,23,42,0.7), rgba(15,23,42,0.7)), url('https://images.unsplash.com/photo-1523805009345-7448845a9e53'); background-size:cover; background-position:center; color:#fff; text-align:center; padding:90px 8%;}
+  .hero h2{font-size:42px;margin-bottom:15px;} .hero p{font-size:18px;max-width:700px;margin:0 auto 25px;}
+  .btn{display:inline-block;padding:12px 28px;border-radius:30px;text-decoration:none;font-weight:bold;margin:5px;}
+  .btn-blue{background:#38bdf8;color:#0f172a;} .btn-outline{border:2px solid #fff;color:#fff;}
+  .section{padding:60px 8%;} .section-title{text-align:center;font-size:32px;margin-bottom:10px;color:#0f172a;}
+  .section-sub{text-align:center;color:#64748b;margin-bottom:40px;}
+  .features{display:flex;gap:20px;justify-content:center;flex-wrap:wrap;margin-top:20px;}
+  .feature{background:#fff;padding:20px;border-radius:12px;box-shadow:0 4px 12px rgba(0,0,0,0.05);flex:1;min-width:250px;text-align:center;}
+  .tours{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:25px;}
+  .tour-card{background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 8px 24px rgba(0,0,0,0.08);transition:0.3s;}
+  .tour-card:hover{transform:translateY(-5px);}
+  .tour-img{height:220px;background:#ddd;background-size:cover;background-position:center;}
+  .tour-content{padding:22px;}
+  .tour-content h3{font-size:20px;margin-bottom:8px;color:#0f172a;}
+  .tour-content p{font-size:14px;color:#475569;margin-bottom:12px;}
+  .price{font-weight:bold;color:#0284c7;margin-bottom:15px;display:block;}
+  .itinerary{background:#f1f5f9;padding:12px;border-radius:8px;font-size:13px;margin-top:10px;}
+  .about{background:#0f172a;color:#cbd5e1;text-align:center;}
+  .contact-box{background:#fff;padding:30px;border-radius:16px;max-width:600px;margin:30px auto 0;box-shadow:0 8px 24px rgba(0,0,0,0.1);}
+  .contact-box input, .contact-box textarea{width:100%;padding:12px;margin:8px 0;border:1px solid #e2e8f0;border-radius:8px;}
+  .contact-box button{width:100%;padding:13px;background:#0f172a;color:#fff;border:none;border-radius:8px;font-weight:bold;cursor:pointer;}
+  footer{text-align:center;padding:25px;background:#020617;color:#94a3b8;font-size:13px;}
+  @media(max-width:600px){.hero h2{font-size:28px;} header{flex-direction:column;}}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>SKY <span>TOURS</span></h1>
+  <nav>
+    <a href="#tours">Tours</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h2>Discover Uganda with Sky Tours and Travels</h2>
+  <p>Authentic, Affordable & Unforgettable Adventures - From Lake Victoria to the Rwenzoris and the Nile.</p>
+  <a href="#tours" class="btn btn-blue">Explore Tours</a>
+  <a href="https://wa.me/256700000000" class="btn btn-outline">Chat on WhatsApp</a>
+</section>
+
+<section class="section">
+  <h2 class="section-title">Why Travel With Us?</h2>
+  <p class="section-sub">Local guides, fair prices, no hidden costs</p>
+  <div class="features">
+    <div class="feature"><h3>🌍 Local Guides</h3><p>Born and raised in Uganda, we know hidden gems.</p></div>
+    <div class="feature"><h3>💳 MoMo Accepted</h3><p>Pay with MTN MoMo, Airtel Money, Flutterwave or Visa.</p></div>
+    <div class="feature"><h3>✅ Trusted</h3><p>Custom tours for solo, couples & groups.</p></div>
+  </div>
+</section>
+
+<section id="tours" class="section" style="background:#f1f5f9;">
+  <h2 class="section-title">Our Top Tours</h2>
+  <p class="section-sub">Handpicked for you</p>
+  <div class="tours">
+    
+    <!-- TOUR 1 -->
+    <div class="tour-card">
+      <div class="tour-img" style="background-image:url('https://images.unsplash.com/photo-1544551763-46a013bb70d5');"></div>
+      <div class="tour-content">
+        <h3>Lake Victoria Sunset & Island Escape</h3>
+        <p>Relax on Africa's largest lake. Boat cruise, fishing villages, fresh tilapia lunch and magical sunset.</p>
+        <span class="price">$40 / 150k UGX per person</span>
+        <a href="#contact" class="btn btn-blue" style="padding:8px 18px;font-size:14px;">Book Now</a>
+        <div class="itinerary"><strong>Itinerary:</strong> AM Boat to Island | PM Fish Lunch & Swim | Evening Sunset Cruise back to Kampala.</div>
+      </div>
+    </div>
+
+    <!-- TOUR 2 -->
+    <div class="tour-card">
+      <div class="tour-img" style="background-image:url('https://images.unsplash.com/photo-1486915309851-b0cc1f8a0084');"></div>
+      <div class="tour-content">
+        <h3>Rwenzori Mountains Hiking - 3 Days</h3>
+        <p>Challenge the Mountains of the Moon. Glaciers, rainforest trails and breathtaking peaks.</p>
+        <span class="price">$280 per person</span>
+        <a href="#contact" class="btn btn-blue" style="padding:8px 18px;font-size:14px;">Book Now</a>
+        <div class="itinerary"><strong>Itinerary:</strong> Day 1 Kampala to Kasese | Day 2 Forest hike to camp | Day 3 Viewpoint & return.</div>
+      </div>
+    </div>
+
+    <!-- TOUR 3 -->
+    <div class="tour-card">
+      <div class="tour-img" style="background-image:url('https://images.unsplash.com/photo-1530549387789-4c1017266635');"></div>
+      <div class="tour-content">
+        <h3>White Water Surfing on River Nile - Jinja</h3>
+        <p>Adrenaline on the world's longest river! Surf, raft and bungee in Uganda's adventure capital.</p>
+        <span class="price">$90 / 350k UGX per person</span>
+        <a href="#contact" class="btn btn-blue" style="padding:8px 18px;font-size:14px;">Book Now</a>
+        <div class="itinerary"><strong>Itinerary:</strong> 6am Kampala to Jinja | 4hr rafting Grade 3-5 | Lunch on Nile | Return by 7pm.</div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section id="about" class="section about">
+  <h2 class="section-title" style="color:#fff;">About Sky Tours and Travels</h2>
+  <p style="max-width:700px;margin:20px auto;">We are a locally owned tours company based in Kampala. Our mission is simple: give every traveler an authentic Ugandan story at a fair price. Whether it's your first time on Lake Victoria or your 10th time on the Nile, we make it memorable.</p>
+</section>
+
+<section id="contact" class="section">
+  <h2 class="section-title">Book Your Trip</h2>
+  <p class="section-sub">Fill this form or WhatsApp us for instant reply</p>
+  <div class="contact-box">
+    <input type="text" placeholder="Your Name">
+    <input type="text" placeholder="WhatsApp Number">
+    <input type="text" placeholder="Which Tour? (Lake Victoria / Rwenzori / Nile)">
+    <textarea rows="4" placeholder="Your Message"></textarea>
+    <button>Send Booking Request</button>
+    <p style="text-align:center;margin-top:15px;font-size:13px;">Or WhatsApp: <strong>+256 756474704</strong></p>
+  </div>
+</section>
+
+<footer>
+  &copy; 2026 Sky Tours and Travels, Kampala, Uganda. All Rights Reserved.
+</footer>
+
+</body>
+</html>
